@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(black,black,black,black,green);
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-image:linear-gradient(green,black);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px green;
+}
+
+.display {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: rgb(14, 5, 5);    
+}
+
+
+.controls button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.controls button#startPauseBtn {
+    background-color: #1c8e37;
+    color: white;
+}
+
+.controls button#resetBtn {
+    background-color: #c92737;
+    color: white;
+}
+
+.controls button#lapBtn {
+    background-color: #1b5ba0;
+    color: white;
+}
+
+.laps {
+    margin-top: 20px;
+}
+
+.laps ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.laps ul li {
+    background-color: green;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    color: rgb(14, 5, 5);
+}
+.heading{
+    color: rgb(14, 5, 5);
+}
